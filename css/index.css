@@ -179,10 +179,9 @@ body {
     font-family: 'NanumBarunGothic',serif;
 }
 .sticker {
+    height:20%;
+    width:20%;
     position: relative;
-    width: 20%;
-    height: 20%;
-    margin: 10px;
     float: left;
 }
 
