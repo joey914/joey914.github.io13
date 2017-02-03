@@ -6,8 +6,30 @@
     src: url('fonts/NanumBarunGothic.eot');
     src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('fonts/NanumBarunGothic.woff') format('woff'), url('fonts/NanumBarunGothic.ttf') format('truetype');
 }
+@media (max-width:88px) {
+  html {
+    font-size: 5px;
+  }
+}
 
-@media (max-width:299px) {
+@media (min-width:89px) and (max-width:133px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media (min-width:134px) and (max-width:195px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (min-width:196px) and (max-width:242px) {
+  html {
+    font-size: 8px;
+  }
+}
+@media (min-width:243px) and (max-width:299px) {
   html {
     font-size: 9px;
   }
@@ -46,7 +68,7 @@
 @media (min-width:633px) and (max-width:667px) {
     html {
         font-size: 15px;
-    }
+      }
 }
 
 @media (min-width:668px) and (max-width:712px) {
@@ -177,12 +199,15 @@ body {
     max-width: auto;
     line-height: 1.4;
     font-family: 'NanumBarunGothic',serif;
+    text-align: center;
 }
+
 .sticker {
-    height:20%;
-    width:20%;
     position: relative;
     float: left;
+    width: 20%;
+    height: 20%;
+    margin: 2%;
 }
 
 .fb .sticker-img {
