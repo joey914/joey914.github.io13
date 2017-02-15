@@ -178,7 +178,7 @@ body {
 }
 
 .swiper-slide .title {
-    font-size: 4.25rem;
+    font-size: 2.6rem;
     font-weight: 200;
      font-family: 'NanumBarunGothic',monospace;
 }
@@ -189,7 +189,7 @@ body {
 }
 
 .swiper-slide .subtitle {
-    font-size: 2.22rem;
+    font-size: 1.4rem;
     font-weight: 100;
     font-family: 'NanumBarunGothic',monospace;
 }
