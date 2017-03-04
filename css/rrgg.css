@@ -12,7 +12,7 @@
 }
 .entrance{
   font-family:'nanum-barun-gothic-ultralight';
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 body {
@@ -21,8 +21,20 @@ body {
   color: #ffffff;
   background-color: #2a2b59;
 }
-
-
+#et{
+  border: 1px solid #ffffff;
+  height: 55px;
+  text-align: center;
+  display:table-cell;
+  vertical-align:middle
+}
+.etrc{
+  font-family:'nanum-barun-gothic-ultralight';
+  font-size: 2rem;
+  margin: auto;
+  display:table-cell;
+  vertical-align:middle
+}
 
 .carousel {
   margin-bottom: 4rem;
