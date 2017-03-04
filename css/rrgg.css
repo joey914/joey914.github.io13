@@ -16,7 +16,6 @@ body {
   padding-bottom: 3rem;
   color: #ffffff;
   background-color: #2a2b59;
-  font-weight: lighter;
 }
 
 
@@ -65,7 +64,6 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 500;
   line-height: 1;
   letter-spacing: -.01rem;
   font-family:'Noto Sans KR';
