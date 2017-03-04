@@ -1,9 +1,11 @@
-
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #ffffff;
   background-color: #2a2b59;
+  font-family:'Noto Sans KR';
+  font-weight: 100;
 }
 
 
@@ -33,7 +35,7 @@ body {
   text-align: center;
 }
 .marketing h2 {
-  font-weight: 200;
+  font-weight: 100;
 }
 .marketing .col-lg-4 p {
   margin-right: .75rem;
@@ -55,6 +57,7 @@ body {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.01rem;
+  font-family:'Noto Sans KR';
 }
 
 
@@ -67,10 +70,12 @@ body {
     margin-bottom: 1rem;
     font-size: 1rem;
     line-height: 1.4;
+    font-weight: 100;
   }
 
   .featurette-heading {
     font-size: 40px;
+    font-weight: 100;
   }
 
 
@@ -79,6 +84,7 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+    font-weight: 100;
   }
 
 
