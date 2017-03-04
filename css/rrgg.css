@@ -1,11 +1,22 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face {
+    font-family: 'nanum-barun-gothic-ultralight';
+    src: url('fonts/nanumbarungothicultralight.eot');
+    src: url('fonts/nanumbarungothicultralight.eot?#iefix') format('embedded-opentype'),
+         url('fonts/nanumbarungothicultralight.woff2') format('woff2'),
+         url('fonts/nanumbarungothicultralight.woff') format('woff'),
+         url('fonts/nanumbarungothicultralight.ttf') format('truetype'),
+         url('fonts/nanumbarungothicultralight.svg#nanum-barun-gothic-ultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
   color: #ffffff;
   background-color: #2a2b59;
-  font-family:'Noto Sans KR';
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 
@@ -54,12 +65,14 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1;
   letter-spacing: -.01rem;
   font-family:'Noto Sans KR';
 }
-
+.fontclass{
+  font-family:'nanum-barun-gothic-ultralight';
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -70,12 +83,10 @@ body {
     margin-bottom: 1rem;
     font-size: 1rem;
     line-height: 1.4;
-    font-weight: 100;
   }
 
   .featurette-heading {
     font-size: 40px;
-    font-weight: 100;
   }
 
 
@@ -84,7 +95,6 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
-    font-weight: 100;
   }
 
 
