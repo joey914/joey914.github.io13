@@ -18,3 +18,23 @@ function amove(i)
   var ost=$("#div_"+i).offset().top;
   $('html, body').stop().animate( { scrollTop : ost-60 },600 );
 }
+function hover(i) {
+  if(i==1)
+  {
+    document.getElementById("am_2").setAttribute('src', 'down_active.png');
+  }
+  else if(i==2)
+  {
+    document.getElementById("etimg").setAttribute('src', 'entrance_active.png');
+  }
+}
+function unhover(i) {
+  if(i==1)
+  {
+    document.getElementById("am_2").setAttribute('src', 'down.png');
+  }
+  else if(i==2)
+  {
+    document.getElementById("etimg").setAttribute('src', 'entrance.png');
+  }
+}
