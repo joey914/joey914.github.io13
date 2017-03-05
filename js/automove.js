@@ -15,7 +15,7 @@ $("#am_2").click(function(){
 })
 $("#entranced").click(function(){
   alert("IOS TEST (EM)");
-  location.replace="http://soylatte.kr:8989";
+  location.replace("http://soylatte.kr:8989");
 })
 $("#new").click(function(){
   $(location).attr('href',"http://soylatte.kr:8989");
