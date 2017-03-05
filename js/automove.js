@@ -16,6 +16,9 @@ $("#am_2").click(function(){
 $("#entranced").click(function(){
   location.href="http://soylatte.kr:8989";
 })
+$("#new").click(function(){
+  location.href="http://soylatte.kr:8989";
+})
 function amove(i)
 {
   var ost=$("#div_"+i).offset().top;
