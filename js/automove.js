@@ -14,12 +14,10 @@ $("#am_2").click(function(){
   amove(2);
 })
 $("#entranced").click(function(){
-  alert("아나 아이폰 ㅂㄷ");
   $(location).attr('href',"http://soylatte.kr:8989");
   return false;
 })
 $("#new").click(function(){
-  alert("아나 아이폰 자꾸안됨 잡스찡이랑 얘기좀해봐야겟음");
   $(location).attr('href',"http://soylatte.kr:8989");
   return false;
 })
