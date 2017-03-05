@@ -14,10 +14,11 @@ $("#am_2").click(function(){
   amove(2);
 })
 $("#entranced").click(function(){
-  location.href="http://soylatte.kr:8989";
+  alert("IOS TEST (EM)");
+  location.replace="http://soylatte.kr:8989";
 })
 $("#new").click(function(){
-  location.href="http://soylatte.kr:8989";
+  location.replace="http://soylatte.kr:8989";
 })
 function amove(i)
 {
