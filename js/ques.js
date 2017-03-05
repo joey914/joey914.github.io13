@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#enter').click(function() {
-      document.getElementById("ent").setAttribute('src', 'entrance_active.png');
+      document.getElementById("ent").setAttribute('src', 'imgs/entrance_active.png');
         var name = $("#name").val();
         var num = $("#num").val();
         var contact = $("#contact").val();
@@ -12,7 +12,7 @@ $(document).ready(function() {
             var regdata = "name=" + name + "&num=" + num + "&contact=" + contact + "&why=" + why + "&self=" + self + "&gua=" + gua + "&clas=" + clas;
             $.ajax({        
                 type: "POST",
-                url: "http://soylatte.kr:3000/bill",
+                url: "http://soylatte.kr:8989/newpeople",
                     data: regdata,
                     success: function(data)     {        
                     if (data.success == true) {
@@ -46,35 +46,35 @@ var clas;
 function clic(i) {
   if(i==1)
   {
-    document.getElementById("sf").setAttribute('src', 'sft_active.png');
-    document.getElementById("mu").setAttribute('src', 'mul.png');
+    document.getElementById("sf").setAttribute('src', 'imgs/sft_active.png');
+    document.getElementById("mu").setAttribute('src', 'imgs/mul.png');
     gua = "소프트웨어";
   }
   else if(i==2)
   {
-    document.getElementById("mu").setAttribute('src', 'mul_active.png');
-    document.getElementById("sf").setAttribute('src', 'sft.png');
+    document.getElementById("mu").setAttribute('src', 'imgs/mul_active.png');
+    document.getElementById("sf").setAttribute('src', 'imgs/sft.png');
     gua = "멀티미디어";
   }
   else if(i==3)
   {
-    document.getElementById("gae").setAttribute('src', 'ga_c.png');
-    document.getElementById("dee").setAttribute('src', 'de.png');
-    document.getElementById("gie").setAttribute('src', 'gi.png');
+    document.getElementById("gae").setAttribute('src', 'imgs/ga_c.png');
+    document.getElementById("dee").setAttribute('src', 'imgs/de.png');
+    document.getElementById("gie").setAttribute('src', 'imgs/gi.png');
     clas = "개발자";
   }
   else if(i==4)
   {
-    document.getElementById("gae").setAttribute('src', 'ga.png');
-    document.getElementById("dee").setAttribute('src', 'de_c.png');
-    document.getElementById("gie").setAttribute('src', 'gi.png');
+    document.getElementById("gae").setAttribute('src', 'imgs/ga.png');
+    document.getElementById("dee").setAttribute('src', 'imgs/de_c.png');
+    document.getElementById("gie").setAttribute('src', 'imgs/gi.png');
     clas = "디자이너";
   }
   else if(i==5)
   {
-    document.getElementById("gae").setAttribute('src', 'ga.png');
-    document.getElementById("dee").setAttribute('src', 'de.png');
-    document.getElementById("gie").setAttribute('src', 'gi_c.png');
+    document.getElementById("gae").setAttribute('src', 'imgs/ga.png');
+    document.getElementById("dee").setAttribute('src', 'imgs/de.png');
+    document.getElementById("gie").setAttribute('src', 'imgs/gi_c.png');
     clas = "기획자"
   }
 }

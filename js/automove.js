@@ -21,20 +21,20 @@ function amove(i)
 function hover(i) {
   if(i==1)
   {
-    document.getElementById("am_2").setAttribute('src', 'down_active.png');
+    document.getElementById("am_2").setAttribute('src', 'imgs/down_active.png');
   }
   else if(i==2)
   {
-    document.getElementById("etimg").setAttribute('src', 'entrance_active.png');
+    document.getElementById("etimg").setAttribute('src', 'imgs/entrance_active.png');
   }
 }
 function unhover(i) {
   if(i==1)
   {
-    document.getElementById("am_2").setAttribute('src', 'down.png');
+    document.getElementById("am_2").setAttribute('src', 'imgs/down.png');
   }
   else if(i==2)
   {
-    document.getElementById("etimg").setAttribute('src', 'entrance.png');
+    document.getElementById("etimg").setAttribute('src', 'imgs/entrance.png');
   }
 }
