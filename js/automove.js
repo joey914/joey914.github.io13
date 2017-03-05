@@ -18,7 +18,7 @@ $("#entranced").click(function(){
   location.replace="http://soylatte.kr:8989";
 })
 $("#new").click(function(){
-  location.replace="http://soylatte.kr:8989";
+  $(location).attr('href',"http://soylatte.kr:8989");
 })
 function amove(i)
 {
